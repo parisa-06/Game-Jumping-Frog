@@ -29,8 +29,9 @@
         jump[p]=j;
          document.getElementById("demo3").innerHTML=jump;
         p++;
+        k++
     }
     
-   k++
+  
 }
 
