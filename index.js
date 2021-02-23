@@ -10,7 +10,7 @@
 
  for(i=1; i<= number_waterWell; i++){
   
-    random_holds = Math.floor(Math.random() * (98)+2);
+    random_holds = Math.floor(Math.random() * (number_waterWell)+1);
     if(home[random_holds] == null)
       home[random_holds]= "waterWell"
     else
