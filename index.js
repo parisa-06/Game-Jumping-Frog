@@ -1,4 +1,4 @@
-var i, j, p = 0, w=0;
+var i, j, p = 0, w=0 ,k=0;
  var lenght_home = parseFloat( prompt("Enter your number home : "));
  var number_waterWell = parseFloat(prompt("Enter your number_waterWell   : "));
  var number_jump = parseFloat( prompt("Enter your number_jump: "));
@@ -33,12 +33,13 @@ function myFunction(lenght_home , number_waterWell , number_jump){
          (i--)
      document.getElementById("demo1").innerHTML = home;
   }
- for (j =0; j <= lenght_home;  j=j+4) {
+ for (j =0; k <= lenght_home;  j=j+4) {
   if (home[j] != "waterWell") {
       jump[p] = j;
       document.getElementById("demo3").innerHTML = jump;
       p++;
     }
+    k++
   }
 }
 
